@@ -1,0 +1,26 @@
+{
+  "name": "three-game-starter",
+  "description": "Three.js starter for web and desktop games.",
+  "private": true,
+  "version": "0.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "type:check": "tsc --noEmit"
+  },
+  "packageManager": "pnpm@12.10.1",
+  "dependencies": {
+    "@tauri-apps/api": "2.12.2",
+    "@tauri-apps/plugin-opener": "2.7.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.12.1",
+    "@types/node": "26.6.5",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  }
+}
