@@ -17,12 +17,16 @@
     "lint:write": "oxlint --fix ."
   },
   "dependencies": {
+    "@dimforge/rapier3d": "0.21.0",
     "@tauri-apps/api": "2.12.2",
-    "@tauri-apps/plugin-opener": "2.7.0"
+    "@tauri-apps/plugin-opener": "2.7.0",
+    "three": "0.186.1",
+    "three-gamepad-controls": "0.25.3"
   },
   "devDependencies": {
     "@tauri-apps/cli": "2.12.1",
     "@types/node": "26.6.5",
+    "@types/three": "0.186.0",
     "oxfmt": "0.72.0",
     "oxlint": "1.87.0",
     "typescript": "7.0.2",

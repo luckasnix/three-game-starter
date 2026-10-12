@@ -9,6 +9,10 @@ const viteConfig = defineConfig(() => ({
   //
   // 1. prevent Vite from obscuring rust errors
   clearScreen: false,
+  // Keep Rapier's JavaScript bindings and WASM imports in the same module graph.
+  optimizeDeps: {
+    exclude: ["@dimforge/rapier3d"],
+  },
   // 2. tauri expects a fixed port, fail if that port is not available
   server: {
     port: 1420,
